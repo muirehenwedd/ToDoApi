@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0</TargetFrameworks>
+        <Nullable>annotations</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\ToDoApi.Common.Auth\ToDoApi.Common.Auth.csproj" />
+        <ProjectReference Include="..\..\..\ToDoApi.Common.Infrastructure\ToDoApi.Common.Infrastructure.csproj" />
+        <ProjectReference Include="..\..\..\ToDoApi.Common.InternalAccess\ToDoApi.Common.InternalAccess.csproj" />
+        <ProjectReference Include="..\..\..\ToDoApi.Common.Utility\ToDoApi.Common.Utility.csproj" />
+        <ProjectReference Include="..\ToDoApi.Services.Identity.Core\ToDoApi.Services.Identity.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.15.0" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.0" />
+    </ItemGroup>
+
+</Project>

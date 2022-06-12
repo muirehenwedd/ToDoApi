@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/Highlighting/SweaWarningsMode/@EntryValue">DoNotShowAndRun</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=86e96517_002D4619_002D46f1_002Da571_002Daff511615eb2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="EmailPasswordValidation_Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::B35B06BD-A8D0-4EC0-9467-751195B10701::net6.0::BusinessClub.Common.UnitTests.Infrastructure.Validation.ValidationTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

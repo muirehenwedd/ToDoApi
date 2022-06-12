@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>annotations</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\..\ToDoApi.Common.Auth\ToDoApi.Common.Auth.csproj" />
+      <ProjectReference Include="..\..\..\..\ToDoApi.Common.Core\ToDoApi.Common.Core.csproj" />
+      <ProjectReference Include="..\..\..\..\ToDoApi.Common.Infrastructure\ToDoApi.Common.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\..\..\ToDoApi.Common.InternalAccess\ToDoApi.Common.InternalAccess.csproj" />
+      <ProjectReference Include="..\..\ToDoApi.Services.Tasks.Domain\ToDoApi.Services.Tasks.Domain\ToDoApi.Services.Tasks.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

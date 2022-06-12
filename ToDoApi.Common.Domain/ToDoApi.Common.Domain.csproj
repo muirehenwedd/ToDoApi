@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net6.0</TargetFrameworks>
+        <Nullable>annotations</Nullable>
+        <AssemblyName>ToDoApi.Common.Domain</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1"/>
+    </ItemGroup>
+
+</Project>
